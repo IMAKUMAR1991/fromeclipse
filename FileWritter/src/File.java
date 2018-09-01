@@ -15,6 +15,7 @@ public class File {
 	         byte[] buffer = new byte[1024];
 	         int length;
 	         // from my eclipse
+		      // i made changes from git
 	         
 	         while ((length = ins.read(buffer)) > 0) {
 	            outs.write(buffer, 0, length);
